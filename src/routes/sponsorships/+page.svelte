@@ -9,6 +9,7 @@
 	import northrop from '$lib/assets/sponsors/northrop.svg';
 	import holybro from '$lib/assets/sponsors/holybro.svg';
 	import fetch from '$lib/assets/sponsors/fetch.svg';
+	import bittele from '$lib/assets/sponsors/bittele.svg';
 	import innovationlab from '$lib/assets/sponsors/innovationlab.svg';
 	import uclaalum from '$lib/assets/sponsors/ucla-alum.svg';
 	import solidworks from '$lib/assets/sponsors/solidworks.svg';
@@ -48,6 +49,17 @@
 			benefits: [
 				'Access to industry-leading drone control systems',
 				'Hardware for technical workshops and competitions'
+			]
+		},
+		{
+			type: 'PCB Manufacturing',
+			name: 'Bittele Electronics Inc.',
+			website: 'https://www.7pcb.com/',
+			description:
+				'n business since 2003, Bittele Electronics Inc. has established itself as a Turn-Key PCB assembly company for prototype and low-to-mid volume PCB fabrication and assembly services. Our facility in Toronto, Canada incorporates our Head Office, Sales Office, Parts Procurement Team, as well as our State-of-the-Art PCB Assembly line. This allows us to offer our customers low-cost, One-stop PCB Assembly Services, including PCB fabrication, parts procurement, and PCB Assembly. Our customers are primarily in the United States and Canada, in a wide variety of industries.',
+			image: bittele,
+			benefits: [
+				'Access to industry-leading PCB manufacturing services'
 			]
 		},
 		{
