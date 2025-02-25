@@ -15,6 +15,7 @@
 	import solidworks from '$lib/assets/sponsors/solidworks.svg';
 	import boeing from '$lib/assets/sponsors/boeing.svg';
 	import bp8 from '$lib/assets/bp-8.svg';
+	import elegoo from '$lib/assets/sponsors/elegoo.svg';
 
 	interface Sponsor {
 		type: string;
@@ -49,6 +50,19 @@
 			benefits: [
 				'Access to industry-leading drone control systems',
 				'Hardware for technical workshops and competitions'
+			]
+		},
+		{
+			type: '3D Printing',
+			name: 'Elegoo',
+			website: 'https://www.elegoo.com/',
+			description:
+				'Elegoo.com is a leading provider of high-quality 3D printers and DIY electronics kits. They specialize in resin and FDM 3D printers, offering cutting-edge models like the Mars and Saturn series for precision printing. Their 3D printing solutions cater to hobbyists, professionals, and educators, providing reliable, affordable, and user-friendly machines. Alongside their printers, Elegoo also supplies resin, filaments, and accessories to support the growing maker community.',
+			image: elegoo,
+			benefits: [
+				'Access to cutting edge adaptive manufacturing technology (3D printing)',
+				'Providing the Jupiter SE SLA printer and Mercury Plus V3.0',
+				'Potential for professional events and workshops'
 			]
 		},
 		{
