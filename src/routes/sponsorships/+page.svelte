@@ -28,16 +28,16 @@
 
 	let sponsors: Sponsor[] = [
 		{
-			type: 'Software & AI Services',
-			name: 'Fetch.ai',
-			website: 'https://fetch.ai/',
+			type: '3D Printing',
+			name: 'Elegoo',
+			website: 'https://www.elegoo.com/',
 			description:
-				'Fetch.ai is a platform that enables the development of decentralized machine learning networks and autonomous economic agents to optimize various industries. Their technology facilitates secure, peer-to-peer applications, automating complex processes without the need for intermediaries.',
-			image: innovationlab,
+				'ELEGOO is a leading provider of high-quality 3D printers and DIY electronics kits. They specialize in resin and FDM 3D printers, offering cutting-edge models like the Mars and Saturn series for precision printing. Their 3D printing solutions cater to hobbyists, professionals, and educators, providing reliable, affordable, and user-friendly machines. Alongside their printers, Elegoo also supplies resin, filaments, and accessories to support the growing maker community.',
+			image: elegoo,
 			benefits: [
-				'Access to cutting-edge AI and machine learning technologies',
-				'Opportunity to collaborate with a leading AI company',
-				'Potential for joint research and development projects'
+				'Access to cutting edge adaptive manufacturing technology (3D printing)',
+				'Providing the Jupiter SE SLA printer and Mercury Plus V3.0',
+				'Potential for professional events and workshops'
 			]
 		},
 		{
@@ -50,19 +50,6 @@
 			benefits: [
 				'Access to industry-leading drone control systems',
 				'Hardware for technical workshops and competitions'
-			]
-		},
-		{
-			type: '3D Printing',
-			name: 'Elegoo',
-			website: 'https://www.elegoo.com/',
-			description:
-				'Elegoo.com is a leading provider of high-quality 3D printers and DIY electronics kits. They specialize in resin and FDM 3D printers, offering cutting-edge models like the Mars and Saturn series for precision printing. Their 3D printing solutions cater to hobbyists, professionals, and educators, providing reliable, affordable, and user-friendly machines. Alongside their printers, Elegoo also supplies resin, filaments, and accessories to support the growing maker community.',
-			image: elegoo,
-			benefits: [
-				'Access to cutting edge adaptive manufacturing technology (3D printing)',
-				'Providing the Jupiter SE SLA printer and Mercury Plus V3.0',
-				'Potential for professional events and workshops'
 			]
 		},
 		{
