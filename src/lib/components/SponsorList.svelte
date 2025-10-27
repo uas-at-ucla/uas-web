@@ -8,8 +8,9 @@
 	import solidworks from '$lib/assets/sponsors/solidworks.svg';
 	import boeing from '$lib/assets/sponsors/boeing.svg';
 	import skillcatapp from '$lib/assets/sponsors/skillcatapp.svg';
+	import elegoo from '$lib/assets/sponsors/elegoo.svg';
 
-	const sponsors = [fetch, innovationlab, holybro, aiaa, uclaalum, solidworks, boeing, northrop];
+	const sponsors = [elegoo, holybro, aiaa, uclaalum, solidworks, boeing, northrop];
 </script>
 
 <div class="mx-auto max-w-7xl px-10 pt-10 text-center">
