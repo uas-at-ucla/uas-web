@@ -32,11 +32,16 @@ export async function load({ locals, url }: RequestEvent) {
 		interestForm: interestFormMap.has(user.email.split('@')[0]) ? true : false
 	}));
 
+	// Fetch all events
+	const eventsCollection = db.db('website').collection('events');
+	const events = await eventsCollection.find({}).toArray();
+
 	return {
 		isAuthenticated,
 		user,
 		token,
 		isAdmin: true,
-		allUsers: usersWithInterestForm
+		allUsers: usersWithInterestForm,
+		events
 	};
 }

@@ -11,16 +11,12 @@
 	const edgar = 'https://ik.imagekit.io/uas/team/edgar.jpg';
 
 	let team = [
-		{ name: 'Kush Agarwal', img: kush, role: 'President', notes: 'Aerospace Engineering' },
-		{ name: 'Nathan Chan', img: nathan, role: 'Vice President', notes: 'Computer Science' },
-		{ name: 'John Nitsos', img: john, role: 'Chief Technology Officer', notes: 'Electrical Engineering' },
-		{ name: 'Steven Wen', img: steven, role: 'Publicity', notes: 'Materials Engineering' },
-		{ name: 'Aiden Wong', img: aiden, role: 'Webmaster', notes: 'Computer Science' },
-		{ name: 'Kevin Chen', img: kevin, role: 'Secretary', notes: 'Computer Science' },
-		{ name: 'Samuel Wu', img: samuel, role: 'Social Chair', notes: 'Mechanical Engineering' },
-		{ name: 'Aniket Verma', img: aniket, role: 'R&D Lead', notes: 'Aerospace Engineering' },
-		{ name: 'Sean Son', img: sean, role: 'Vision Lead', notes: 'Computer Science' },
+		{ name: 'John Nitsos', img: john, role: 'President', notes: 'Electrical Engineering' },
+		{ name: 'Aniket Verma', img: aniket, role: 'VP of Hardware', notes: 'Aerospace Engineering' },
+		{ name: 'Kush Agarwal', img: kush, role: 'VP of Software', notes: 'Aerospace Engineering' },
 		{ name: 'Edgar Reyes', img: edgar, role: 'Hardware Lead', notes: 'Mechanical Engineering' },
+		{ name: 'Aiden Wong', img: aiden, role: 'Flight Software Lead', notes: 'Computer Science' },
+		{ name: 'Sean Son', img: sean, role: 'Vision Lead', notes: 'Computer Science' },
 	];
 </script>
 
